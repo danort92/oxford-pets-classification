@@ -1,0 +1,9 @@
+{
+    "model": "v0",
+    "test_loss": 0.6008465017917274,
+    "test_acc": 0.6778413736713,
+    "best_val_acc": 0.6793478260869565,
+    "best_epoch": 1,
+    "total_params": 105441,
+    "trainable_params": 105441
+}

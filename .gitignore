@@ -1,0 +1,79 @@
+# Dataset (downloaded automatically)
+data/oxford-iiit-pet/
+data/*.tar.gz
+data/*.zip
+
+# Model checkpoints (too large for git)
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Output files (generated locally)
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+*.swp
+
+# Keep directory structure but ignore contents
+!outputs/.gitkeep
+!checkpoints/.gitkeep
+!logs/.gitkeep
