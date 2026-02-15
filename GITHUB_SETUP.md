@@ -46,12 +46,12 @@ git commit -m "Initial commit: Oxford-IIIT Pet Classification project"
 Copy the commands shown on GitHub (they look like this):
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/oxford-pets-classification.git
+git remote add origin https://github.com/danort92/oxford-pets-classification.git
 git branch -M main
 git push -u origin main
 ```
 
-**Important:** Replace `YOUR_USERNAME` with your actual GitHub username!
+**Important:** Replace `danort92` with your actual GitHub username!
 
 ### 4️⃣ Update Notebook Links
 
@@ -63,12 +63,12 @@ After pushing to GitHub, update the Colab badges in the notebooks:
 - `notebooks/02_transfer_learning.ipynb`
 - `README.md`
 
-**Find and replace** `YOUR_USERNAME` with your GitHub username.
+**Find and replace** `danort92` with your GitHub username.
 
 **Example:**
 ```markdown
 # Before
-[![Open In Colab](badge.svg)](https://colab.research.google.com/.../YOUR_USERNAME/...)
+[![Open In Colab](badge.svg)](https://colab.research.google.com/.../danort92/...)
 
 # After (if your username is "johndoe")
 [![Open In Colab](badge.svg)](https://colab.research.google.com/.../johndoe/...)
@@ -215,7 +215,7 @@ Set up SSH keys or use HTTPS with personal access token:
 
 ```bash
 # Use HTTPS instead
-git remote set-url origin https://github.com/YOUR_USERNAME/oxford-pets-classification.git
+git remote set-url origin https://github.com/danort92/oxford-pets-classification.git
 ```
 
 ### "Repository too large"

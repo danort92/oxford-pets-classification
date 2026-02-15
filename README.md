@@ -1,6 +1,6 @@
 # Oxford-IIIT Pet Classification Project
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/oxford-pets-classification/blob/main/notebooks/00_quick_demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danort92/oxford-pets-classification/blob/main/notebooks/00_quick_demo.ipynb)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -23,9 +23,9 @@ Try it now with free GPU! Click on any notebook below:
 
 | Notebook | Description | Time | Colab Link |
 |----------|-------------|------|------------|
-| **Quick Demo** | Binary classification with CNN v3 | ~10 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/oxford-pets-classification/blob/main/notebooks/00_quick_demo.ipynb) |
-| **Multi-Class** | 37 breed classification with custom CNN | ~60 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/oxford-pets-classification/blob/main/notebooks/01_multiclass_classification.ipynb) |
-| **Transfer Learning** | ResNet50 + Grad-CAM visualization | ~30 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/oxford-pets-classification/blob/main/notebooks/02_transfer_learning.ipynb) |
+| **Quick Demo** | Binary classification with CNN v3 | ~10 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danort92/oxford-pets-classification/blob/main/notebooks/00_quick_demo.ipynb) |
+| **Multi-Class** | 37 breed classification with custom CNN | ~60 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danort92/oxford-pets-classification/blob/main/notebooks/01_multiclass_classification.ipynb) |
+| **Transfer Learning** | ResNet50 + Grad-CAM visualization | ~30 min | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danort92/oxford-pets-classification/blob/main/notebooks/02_transfer_learning.ipynb) |
 
 **Why Colab?**
 - 🆓 Free GPU access (15GB VRAM)
@@ -38,7 +38,7 @@ Try it now with free GPU! Click on any notebook below:
 For running scripts locally or on your own server:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/oxford-pets-classification.git
+git clone https://github.com/danort92/oxford-pets-classification.git
 cd oxford-pets-classification
 pip install -r requirements.txt
 python task1_binary_classification.py --model v3 --epochs 20
